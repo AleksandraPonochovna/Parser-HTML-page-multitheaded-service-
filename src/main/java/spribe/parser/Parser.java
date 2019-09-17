@@ -15,7 +15,7 @@ public class Parser {
     private static final ArticleService service = ArticleServiceFactory.getInstance();
     private static final String URL_WEB_PAGE = "https://ain.ua/";
     private static final String KEY_DRIVER = "webdriver.chrome.driver";
-    private static final String VALUE_DRIVER = "C:\\Users\\Lenovo\\IdeaProjects\\Task Spribe\\chromedriver.exe";
+    private static final String VALUE_DRIVER = "chromedriver.exe";
 
     public static Runnable parse(int i) {
         return () -> {
